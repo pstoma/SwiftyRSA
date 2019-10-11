@@ -1,7 +1,7 @@
-platform :ios, '8.3'
+platform :ios, '10.0'
 install! 'cocoapods', :integrate_targets => false
 
-pod 'SwiftLint', '0.27.0'
+pod 'SwiftLint', '0.35.0'
 
 target 'SwiftyRSA iOS'
 target 'SwiftyRSA watchOS'
