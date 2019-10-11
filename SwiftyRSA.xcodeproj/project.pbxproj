@@ -507,7 +507,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "SWIFTLINT=\"${SRCROOT}/Pods/SwiftLint/swiftlint\"\nif test -x \"${SWIFTLINT}\"; then\n    ${SWIFTLINT}\nfi";
+			shellScript = "SWIFTLINT=\"${SRCROOT}/Pods/SwiftLint/swiftlint\"\nif test -x \"${SWIFTLINT}\"; then\n    ${SWIFTLINT}\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
